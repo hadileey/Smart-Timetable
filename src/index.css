@@ -1,0 +1,13 @@
+body { margin: 0; display: flex; min-width: 320px; min-height: 100vh; background-color: #f9fafb; color: #111827; }
+
+#root { width: 100%; }
+
+@import "tailwindcss";
+
+h1,h2,h3,h4,h5,h6,.unbounded { font-family: 'Unbounded', sans-serif; }
+
+button,a,input,select,textarea,p,.google { font-family: 'Google Sans', sans-serif; }
+
+button:hover,a:hover ,link:hover {
+  cursor: pointer;
+}
